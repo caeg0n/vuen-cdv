@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Campinapolis Delivery Vendedor",
+    "slug": "vuencdv",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon-1.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "splash": {
+      "image": "./assets/logo-1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0C0D19"
+    },
+    "notification": {
+      "icon": "./assets/ico_1.png",
+      "iosDisplayInForeground": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/icon-1.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "android": {
+      "package": "com.k43g0n.vuencdv",
+      "icon": "./assets/icon-1.png",
+      "permissions":["READ_PHONE_STATE","RECORD_AUDIO","READ_CONTACTS","CAMERA"],
+      "adaptiveIcon": {
+        "backgroundImage": "./assets/ico_1.png"
+      },
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "versionCode": 2
+    }
+  }
+}
