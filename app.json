@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Campinapolis Delivery Vendedor",
+    "name": "Camp Delivery Vendedor",
     "slug": "vuencdv",
     "privacy": "public",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "platforms": [
       "ios",
       "android"
@@ -27,7 +27,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.1"
     },
     "web": {
       "favicon": "./assets/icon-1.png"
@@ -51,7 +51,7 @@
       },
       "googleServicesFile": "./google-services.json",
       "useNextNotificationsApi": true,
-      "versionCode": 2
+      "versionCode": 3
     }
   }
 }
